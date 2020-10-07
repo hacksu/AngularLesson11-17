@@ -8,9 +8,7 @@ import { TodoItem } from './../interfaces/todo-item';
 
   {{ item.title }}
 
-  <button class="btn btn-red" ng-click="removeItem()">
-    remove
-  </button>
+ 
  </div>
   `,
   styleUrls: ['./todo-item.component.scss']
