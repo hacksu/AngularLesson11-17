@@ -67,39 +67,38 @@ Let's take a look at what these things are!
 	}
 	```
   2. list.component.html
-  	```	<h1>
-			What do we have to do today?
-		</h1>
-		<div>
-			<button (click)="addTask()" style="background-color: #bfe5f6">Add Task</button>
-				<!--This will add the next task-->
-		</div>
+```
+<h1>What do we have to do today?</h1>
+<div>
+<button (click)="addTask()" style="background-color: #bfe5f6">Add Task</button>
+<!--This will add the next task-->
+</div>
 
-		<div class="task" *ngFor="let task of taskList; let i = index">
-				<!--Angular for loop to display all of the tasks; could implement database -->
-		<div>
-			<span class="title">Task number:</span> {{i +1}}
-				<!-- Giving the task an ID-->
+<div class="task" *ngFor="let task of taskList; let i = index">
+<!--Angular for loop to display all of the tasks; could implement database -->
+<div>
+<span class="title">Task number:</span> {{i +1}}
+<!-- Giving the task an ID-->
 
-			<span class="remove">
-  			    <button (click)='removeTask(i)'> X</button> <!--Button to remove the task-->
-    			</span>
-		</div>
-		<div>
-			<span class="title"> Title:</span>
-				<!--Each task has a title an description -->
-			<input [(ngModel)]="task.title" type="text">
- 		 </div>
-		<div>
-			<span class="title"> Description:</span>
-			<input [(ngModel)]="task.description" type="text">
-  		</div>
-		</div>
+<span class="remove">
+<button (click)='removeTask(i)'> X</button> <!--Button to remove the task-->
+</span>
+</div>
+<div>
+<span class="title"> Title:</span>
+<!--Each task has a title an description -->
+<input [(ngModel)]="task.title" type="text">
+</div>
+<div>
+<span class="title"> Description:</span>
+<input [(ngModel)]="task.description" type="text">
+</div>
+</div>
+```
 	
 	
 3. list.component.ts
-   	```	import { Component, OnInit } from "@angular/core";
-		import { Task } from "../model/task.model";
+   	```	import { Component, OnInit } from "@angular/core"; import { Task } from "../model/task.model";
 
 		@Component({
 		  selector: "app-list",
