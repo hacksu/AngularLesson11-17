@@ -34,16 +34,25 @@ Visit [https://stackblitz.com/] to check out what can be created! This will link
           
 
 2. Now it is time to add components! Everything in Angular is broken down into components. So for us at the moment we are going to to and program 1 componentand  1 model. To add a component in Stackblitz, right click on the app folder and you should see Angular Generator. Click on that and you should be able to add a component along with a few other things. Name the component list.
-      Let's take a look at what these things are:
-        1. Component - This will give us all of the files we need to add a component
-        2. Service -  A class with a specific purpose of sharing data, can be used to send data between the back end and front end
-        3. Directive - A function that executes whenever the Angular compiler finds it in the DOM (Direct Object Model)
-        4. Module - This is used to group components, directives, pipes and services that are related
-        5. Pipe - Used to transfer values in another template 
-        6. Guard - Code that is executed before the route is loaded
-        7. Interface - Abstract type that does not contain any class code
-        8. Class - Can be used to bind muiltple classes together, in Angular, can be useful to bind CSS classes to HTML
-        9. Enum - A set of named constants 
+      Let's take a look at what these things are!
+      
+        1. Component : This will give us all of the files we need to add a component
+        
+        2. Service :  A class with a specific purpose of sharing data, can be used to send data between the back end and front end
+        
+        3. Directive : A function that executes whenever the Angular compiler finds it in the DOM (Direct Object Model)
+        
+        4. Module : This is used to group components, directives, pipes and services that are related
+        
+        5. Pipe : Used to transfer values in another template 
+        
+        6. Guard : Code that is executed before the route is loaded
+        
+        7. Interface : Abstract type that does not contain any class code
+        
+        8. Class : Can be used to bind muiltple classes together, in Angular, can be useful to bind CSS classes to HTML
+        
+        9. Enum : A set of named constants 
    
 3. Now that we have created the list component we  need to look at the files that have been generated for us
         1. 
