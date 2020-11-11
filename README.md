@@ -128,8 +128,8 @@ text-align: center;
 
 5.That is it! We should have a working Angular application in Stackblitz! If things do not work out, the code in this repo can be downloaded locally.
 
-Here are additionally resources :
-        Angular Tutorial - [https://github.com/8Tesla8/to-do-list]
-        Medium Angular Tutorial - [https://medium.com/weekly-webtips/simple-to-do-list-in-angular-247cdad31280]
-        Angular To Do List with Material - [https://stackblitz.com/edit/angular-todolist-materialui]
-	Final Result - [https://stackblitz.com/edit/angular-testlesson1117?file=src%2Fstyles.css]
+Here are additionally resources :   
+        Angular Tutorial - [https://github.com/8Tesla8/to-do-list]  
+        Medium Angular Tutorial - [https://medium.com/weekly-webtips/simple-to-do-list-in-angular-247cdad31280]  
+        Angular To Do List with Material - [https://stackblitz.com/edit/angular-todolist-materialui]   
+	Final Result - [https://stackblitz.com/edit/angular-testlesson1117?file=src%2Fstyles.css]   
