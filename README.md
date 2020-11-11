@@ -16,3 +16,9 @@ Visit https://stackblitz.com/ to check out what can be created! This will link t
 
 # Let's Get Started!
 1. When you get to Stackblitz look in the far left corner and click on Angular. This will direct you to a new Angular Project 
+  Lets take about what we see!
+      1. On the left hand side we have the files for our project, the middle is the text editor, and the far right is the ouput console
+      2. All of our code is in the source folder and we have a angular.json file 
+      3. Inside of the source folder we have the app folder which will hold all of our components. Then we have the index.html file which is currently set to load in the angular app, and the main.ts which is a type-sript file that does some nice stuff for us for loading and browser dynamics that I am not going to deep-drive into.
+
+2. 
